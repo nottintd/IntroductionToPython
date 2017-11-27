@@ -10,7 +10,7 @@ Authors: David Mutchler, Dave Fisher, Valerie Galluzzi, Amanda Stouder,
 ########################################################################
 
 ########################################################################
-# TODO: 2.
+# DONE: 2.
 #
 #  You should have RUN the PREVIOUS module and READ its code.
 #  (Do so now if you have not already done so.)
@@ -47,7 +47,7 @@ TD.forward(150)
 TD.left(90)
 
 Tyler.pen = rg.Pen('green', 5)
-TD.pen = rg.Pen('light blue', 5)
+TD.pen = rg.Pen('blue', 5)
 
 circle = 150
 square = 300
