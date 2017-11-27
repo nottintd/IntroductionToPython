@@ -32,10 +32,10 @@ import rosegraphics as rg
 
 window = rg.TurtleWindow()
 Tyler = rg.SimpleTurtle("turtle")
-Tyler.speed = 5
+Tyler.speed = 8
 
 TD =  rg.SimpleTurtle("turtle")
-TD.speed = 5
+TD.speed = 8
 
 Tyler.right(90)
 Tyler.forward(150)
