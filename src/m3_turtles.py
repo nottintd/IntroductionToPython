@@ -14,7 +14,7 @@ Authors: David Mutchler, Dave Fisher, Valerie Galluzzi, Amanda Stouder,
 """
 ########################################################################
 #
-# TODO: 1.
+# DONE: 1.
 #  (Yes, that means for YOU to DO things per these instructions:)
 #
 # On Line 13 above, replace  PUT_YOUR_OWN_NAME_HERE  with your OWN name.
@@ -29,7 +29,7 @@ import rosegraphics as rg
 
 ########################################################################
 #
-# TODO: 2.
+# DONE: 2.
 #   Allow this file to use the rosegraphics.py file by marking the src
 #   directory as a "Sources Root".  Do that by right clicking on the src folder,
 #   then selector  Mark Directory As --> Sources Root
@@ -55,7 +55,7 @@ window.delay(20)  # Bigger numbers mean slower animation.
 # ----------------------------------------------------------------------
 # Makes (constructs) a   SimpleTurtle   object.
 # ----------------------------------------------------------------------
-dave = rg.SimpleTurtle()
+dave = rg.SimpleTurtle('turtle')
 
 # ----------------------------------------------------------------------
 # Ask the SimpleTurtle objects to do things:
@@ -63,7 +63,8 @@ dave = rg.SimpleTurtle()
 dave.forward(100)
 dave.left(90)
 dave.forward(200)
-
+dave.right(90)
+dave.forward(300)
 # ----------------------------------------------------------------------
 # Construct a new turtle and ask it to do things.
 # ----------------------------------------------------------------------
@@ -77,7 +78,7 @@ matt.forward(50)
 
 ########################################################################
 #
-# TODO: 3.
+# DONE: 3.
 #   Add a few more line of your own code above to make one of the
 #   existing Turtles move some more and/or have different
 #   characteristics.
@@ -91,7 +92,7 @@ matt.forward(50)
 
 ########################################################################
 #
-# TODO: 4.
+# DONE: 4.
 #   The code above  CONSTRUCTS  two SimpleTurtle objects and gives those objects NAMES:
 #       dave    matt
 #
@@ -109,10 +110,16 @@ matt.forward(50)
 #   As always, test by running the module.
 #
 ########################################################################
-
+Tyler = rg.SimpleTurtle('turtle')
+Tyler.speed = 15
+Tyler.forward(100)
+Tyler.left(90)
+Tyler.forward(300)
+Tyler.right(90)
+Tyler.forward(500)
 ########################################################################
 #
-# TODO: 5.
+# DONE: 5.
 #   Run one more time to be sure that all is still OK.
 #   Ensure that no blue bars on the scrollbar-thing to the right remain.
 #
